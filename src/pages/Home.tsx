@@ -12,6 +12,7 @@ const Home = () => {
   const navigate = useNavigate();
   const goToProducts = () => {
     navigate("/products");
+    1;
   };
   return (
     <MainLayout>
@@ -24,16 +25,16 @@ const Home = () => {
             </div>
             <Development />
             <OurServices />
-            <div class="my-12 md:my-24 shadow-2xl">
+            <div class="my-12 md:my-24">
               <Products Project={MainPageProjects} />
-              <span>
-                <button
+              <span class="md:mt-10">
+                <a
+                  href="/products"
                   type="button"
-                  onClick={goToProducts}
-                  class="text-white focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 md:my-16  "
+                  class=" bg-black text-white focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center md:mt-2"
                 >
                   View All
-                </button>
+                </a>
               </span>
             </div>
             <div class="my-10">
