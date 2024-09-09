@@ -1,0 +1,21 @@
+const { default: daisyui } = require('daisyui');
+
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.js" // configure the Flowbite JS source template paths
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'custom-green': '#0b112b',
+      },
+      Animation: {
+        'slide': "slide 5s linear infinite"
+      }
+    },
+  },
+  plugins: [
+    require("daisyui")
+  ],
+}
