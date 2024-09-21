@@ -1,6 +1,6 @@
 import { For } from "solid-js";
 import MainLayout from "../components/layouts/MainLayout";
-import { projectMain, projects } from "../services/Services";
+import { projectMain } from "../services/Services";
 
 const Products = () => {
   return (
@@ -8,7 +8,7 @@ const Products = () => {
       <MainLayout>
         <main class="min-h-screen">
           <div class="max-w-full grid lg:grid-cols-4 md:grid-cols-2 gap-10   ">
-            <For each={projects}>
+            <For each={projectMain}>
               {(project) => (
                 <div class="text-center shadow-lg rounded-md mx-5 my-4 px-5">
                   <div class="overflow-hidden h-48">

@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding: {
+        '33rem': '33rem'
+      },
       colors: {
         'custom-green': '#0b112b',
       },

@@ -3,11 +3,11 @@ import { For } from "solid-js";
 const OurServices = () => {
   const blogPosts = [
     {
-      title: "Crafting Intuitive User Experiences",
+      title: "UI / UX",
       image:
         "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRlY2h8ZW58MHx8MHx8fDA%3D", // Replace with the actual image URL
       description:
-        "Our UI/UX experts design interfaces that are both aesthetically pleasing and highly functional, ensuring a seamless user experience.",
+        "Our UI/UX experts design interfaces that are both aesthetically pleasing and highly functional,",
       link: "/ui-ux-services",
     },
     {
@@ -52,28 +52,32 @@ const OurServices = () => {
       <div class="flex justify-center text-5xl py-10 font-bold text-black md:underline underline-offset-8 md:my-12 hover:text-cyan-500">
         Our Services{" "}
       </div>
-      <div class="grid md:grid-cols-2 gap-7 md:pl-24  ">
+      <div class="grid md:grid-cols-3 gap-7 grid-cols-3 ">
         <For each={blogPosts}>
           {(blog) => (
-            <div class="">
-              <a
-                href="/services"
-                class=" md:p-4 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-              >
-                <img
-                  class="object-cover rounded-t-lg h-96  md:rounded-none md:rounded-s-lg md:h-16 md:w-16 -"
-                  src={blog.image}
-                  alt="loading..."
-                />
-                <div class="flex flex-col justify-between p-4 leading-normal">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    {blog.title}
-                  </h5>
-                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    {blog.description}
-                  </p>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full"
+                src={blog.image}
+                alt="Sunset in the mountains"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-base md:text-xl mb-2 text-nowrap">
+                  {blog.title}
                 </div>
-              </a>
+                <p class="text-gray-700 text-xs">{blog.description}</p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #photography
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #travel
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #winter
+                </span>
+              </div>
             </div>
           )}
         </For>
@@ -83,3 +87,25 @@ const OurServices = () => {
 };
 
 export default OurServices;
+{
+  /* <div class="max-w-sm">
+              <a
+                href="/services"
+                class=" md:p-4 flex flex-row items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              >
+                <img
+                  class=" absolute object-cover rounded-t-lg h-6 w-2 md:rounded-none md:rounded-s-lg md:h-16 md:w-16 -"
+                  src={blog.image}
+                  alt="loading..."
+                />
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                  <h5 class=" text-sm mb-2 md:text-2xl md:font-bold md:tracking-tight text-gray-900 dark:text-white">
+                    {blog.title}
+                  </h5>
+                  <p class="mb-3 md:font-normal text-xs  text-gray-700 dark:text-gray-400">
+                    {blog.description}
+                  </p>
+                </div>
+              </a>
+            </div> */
+}

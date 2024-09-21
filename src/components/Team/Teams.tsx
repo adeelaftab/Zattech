@@ -12,22 +12,19 @@ const Teams = () => {
         </span>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:my-4 md:mt-20 ">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 md:my-4 md:mt-20 ">
         <For each={teams}>
           {(team) => (
             <div class="shadow-lg rounded-lg overflow-hidden hover:scale-125 duration-1000">
               <img src={team.pic} alt="Team Member" class="px-20 mt-10" />
 
-              <p class="text-xl font-bold ">
-                {team.name}
-                <b />
-                <span class="absolute text-4xl mb-45 pl-5">
-                  <A href={team.url}>
-                    <FaBrandsLinkedin class="hover:text-blue-600 hover:scale-125 duration-1000 mt-4" />
-                  </A>
-                </span>
-              </p>
-              <p class="mb-2 ">{team.designation}</p>
+              <p class="relative md:text-xl md:font-bold ">{team.name}</p>
+              <span class="mb-2">{team.designation} </span>
+              <span class="md:text-4xl mb-45 text-2xl ">
+                <A href={team.url}>
+                  <FaBrandsLinkedin class="hover:text-blue-600 hover:scale-125 duration-1000 " />
+                </A>
+              </span>
             </div>
           )}
         </For>
