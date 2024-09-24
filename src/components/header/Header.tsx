@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <nav class="flex items-center flex-wrap bg-white mr-12">
-      <a href="#" class="mt-2 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
+      <a href="/" class="mt-2 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
         <img
           src="logo.png"
           alt="Loading...."

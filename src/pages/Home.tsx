@@ -11,10 +11,10 @@ import Swiper from "../components/Card/Swiper";
 const Home = () => {
   return (
     <MainLayout>
-      <div class="px-10">
+      <div class="md:px-10">
         <div class="min-h-screen flex flex-col text-black">
           <main class="flex-grow pb-6 w-fit">
-            <div class="max-w-full mx-auto px-4 sm:px-6 text-center">
+            <div class="max-w-full mx-auto px-8 sm:px-6 text-center">
               <Banner />
               <div class="md:mb-6 md:bg-slate-200 rounded-xl">
                 <Clients />

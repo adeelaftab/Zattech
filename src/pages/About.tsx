@@ -1,4 +1,5 @@
 import AboutSection from "../components/aboutsection/AboutSection";
+import LifeAtZattech from "../components/aboutsection/LifeAtZattech";
 import Contactfooter from "../components/footer/Contactfooter";
 import MainLayout from "../components/layouts/MainLayout";
 
@@ -7,20 +8,24 @@ const About = () => {
     <MainLayout>
       <div class="container px-8">
         <section class="flex flex-col md:mt-9 ">
-          <div class="grid grid-cols-12 w-full">
-            <div class=" flex col-span-4 justify-c>Wenter">
-              <img src="AboutUsLeft.png" alt="loading..." />
+          <div class="grid  grid-cols-3 md:grid-cols-12 w-full">
+            <div class=" flex col-span-1 md:col-span-4 justify-center">
+              <img
+                src="AboutUsLeft.png"
+                alt="loading... "
+                class="h-60 w-60 md:w-full md:h-full"
+              />
             </div>
-            <div class="col-span-4">
+            <div class="col-span-1 md:col-span-4">
               <div class="flex flex-col justify-center">
-                <div class="md:mt-20 text-4xl text-black font-bold text-center">
+                <div class="md:mt-20 text-lg md:text-4xl text-black font-bold text-center">
                   Welcome To {""}
                   <span class=" text-blue-500 font-extrabold">
                     {" "}
                     {""} Zattech
                   </span>
                 </div>
-                <p class="md:mt-20 text-lg font-normal">
+                <p class="md:mt-20 mt-3 text-xs md:text-lg font-normal text-wrap">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                   sit dolorem, repellendus minima fugiat animi officiis dicta
                   voluptates rem doloribus sequi possimus ipsa aperiam fugit
@@ -29,21 +34,31 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div class=" flex col-span-4 justify-center">
+            <div class=" flex col-span-1 md:col-span-4 justify-center">
               {" "}
-              <img src="AboutUsRight.png" alt="loading... " class="md:ml-28" />
+              <img
+                src="AboutUsRight.png"
+                alt="loading... "
+                class="md:ml-28  md:h-full md:w-full h-60 w-60"
+              />
             </div>
           </div>
         </section>
         <section class=" bg-gray-100 w-full">
           <div class="container mx-auto">
-            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 md:mb-36">
+            <div class="flex flex-row lg:flex-row items-center justify-between gap-8 md:mb-36">
               <div class="lg:w-1/2">
-                <img src="Aboutus1.png" alt="About Us" class="w-full h-auto" />
+                <img
+                  src="Aboutus1.png"
+                  alt="About Us"
+                  class="md:w-full md:h-auto w-full h-full mr-48"
+                />
               </div>{" "}
               <div class="lg:w-1/2 mb-14">
-                <h2 class="text-4xl   font-bold text-gray-800 ">About Us</h2>
-                <p class="text-lg text-gray-600 mb-8 md:my-10 text-wrap">
+                <h2 class="text-lg md:text-4xl   font-bold text-gray-800 mt-9 ">
+                  About Us
+                </h2>
+                <p class="text-xs md:text-lg text-gray-600 mb-8  my-4 md:my-10 text-wrap">
                   gap Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna  
                   aliqua. Quis ipsum suspendisse ultrices gravida.   Lorem ipsum
@@ -60,6 +75,7 @@ const About = () => {
           </div>
         </section>
         <AboutSection />
+        <LifeAtZattech />
       </div>
       <Contactfooter />
     </MainLayout>

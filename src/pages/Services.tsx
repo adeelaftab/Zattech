@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div>
       <MainLayout>
-        <div>
+        <div class="text-black">
           <div class="grid grid-cols-12 ">
             <div class="grid col-span-6 justify-center px-6 mt-4">
               <div class="block md:mt-48">
@@ -37,10 +37,17 @@ const Services = () => {
               />
             </div>
           </div>
-
+          <div>
+            <h1>What We do for you </h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ad
+              veritatis voluptate praesentium perferendis maxime!
+            </p>
+          </div>
           <div class="">
             <Development />
           </div>
+          1
         </div>
       </MainLayout>
     </div>

@@ -99,6 +99,79 @@ const Development = () => {
           </ul>
         </div>
       </div>
+      <div class="flex flex-row md:flex-row h-3/4">
+        <div class="w-full md:w-1/2 p-4">
+          <h2 class="md:text-3xl text-xl font-semibold md:mt-28">
+            <span class="text-blue-600">eCommerce</span>
+            <span class="font-bold"> Development Services </span>
+          </h2>
+          <p class="text-gray-700 m-4 md:mt-5 md:text-2xl text-sm text-center">
+            Elevate your online store with a custom eCommerce app!
+          </p>
+          <p class="text-gray-500 text-xs md:text-lg text-center md:pt-3">
+            Our expert team specializes in creating tailored eCommerce apps that
+            not only look stunning but also provide a seamless shopping
+            experience. From product catalogs and shopping carts to secure
+            payment gateways and personalized recommendations, we'll design an
+            app that drives sales and customer satisfaction.
+          </p>
+          <ul class="hidden md:block mt-8 list-disc list-inside text-gray-700 text-lg">
+            <li>Responsive design for optimal mobile browsing</li>
+            <li>Secure payment processing and data protection</li>
+            <li>
+              Integrations with popular eCommerce platforms (e.g., Shopify,
+              WooCommerce)
+            </li>
+            <li>Personalized product recommendations and marketing features</li>
+            <li>Robust analytics and reporting for performance tracking</li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <div class="md:h-full relative">
+            <img
+              src="eCommerce.png"
+              alt="Web Development Image"
+              class="mt-8 h-48 md:w-full md:h-full object-cover rounded-full"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row md:flex-row h-3/4 md:mt-40 ">
+        <div class="w-full md:w-1/2 p-4">
+          <div class="h-full relative">
+            <img
+              src="/UiUx.png"
+              alt="Embedded Hardware Services Image"
+              class="mt-8 h-48 md:w-full md:h-full"
+            />
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <h2 class="text-lg md:text-3xl font-semibold md:mt-28">
+            <span class="text-blue-600">Web & UI/UX</span> Services
+          </h2>
+          <p class="text-gray-700 md:mt-5 m-3 text-sm md:text-2xl md:font-semibold text-center">
+            Transform your digital presence with our expert web and UI/UX design
+            services.
+          </p>
+          <p class="text-gray-500 md:text-lg text-xs text-center md:pt-3">
+            From stunning websites and intuitive user interfaces to cutting-edge
+            web applications, we deliver exceptional solutions tailored to your
+            specific needs. Our team of skilled designers and developers
+            combines creativity, technical expertise, and a deep understanding
+            of user behavior to create websites that engage, convert, and drive
+            results.
+          </p>
+          <ul class="hidden md:block mt-8 list-disc list-inside text-gray-700 text-lg">
+            <li>Website design and development</li>
+            <li>User interface (UI) design</li>
+            <li>User experience (UX) design</li>
+            <li>Web application development</li>
+            <li>Responsive design for optimal mobile browsing</li>
+            <li>Search engine optimization (SEO) services</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
