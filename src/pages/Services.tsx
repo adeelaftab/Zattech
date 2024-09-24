@@ -1,10 +1,9 @@
-import { A } from "@solidjs/router";
 import Development from "../components/Card/Devlopment";
 import MainLayout from "../components/layouts/MainLayout";
 
 const Services = () => {
   return (
-    <div>
+    <div class="container">
       <MainLayout>
         <div class="text-black">
           <div class="grid grid-cols-12 ">
@@ -20,12 +19,12 @@ const Services = () => {
                 </p>
               </div>
               <div class="md:mb-28  md:pr-33rem">
-                <A
+                <a
                   href="/"
-                  class="text-lg font-bold text-white border-4 border-blue-800 bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-full mt-6 hover:scale-125 px-2"
+                  class="text-lg font-bold text-white border-4 border-blue-800 bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2  rounded-lg md:rounded-full mt-6 hover:scale-125 px-2"
                 >
                   Get Started
-                </A>
+                </a>
               </div>
             </div>
 
@@ -37,7 +36,7 @@ const Services = () => {
               />
             </div>
           </div>
-          <div>
+          <div class="text-center">
             <h1>What We do for you </h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ad

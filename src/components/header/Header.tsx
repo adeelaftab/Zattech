@@ -1,8 +1,10 @@
+import { useLocation } from "@solidjs/router";
 import { AiOutlineClose, AiOutlineMenu } from "solid-icons/ai";
 import { createSignal } from "solid-js";
 
 const Header = () => {
   const [Isopen, Setisopen] = createSignal(false);
+  const location = useLocation();
 
   return (
     <nav class="flex items-center flex-wrap bg-white mr-12">
@@ -32,41 +34,63 @@ const Header = () => {
         <div class="sm:inline-flex lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto lg:pt-2">
           <a
             href="/"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  hover:underline underline-offset-8 md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/"
+                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
             <span class="font-bold text-xl">Home</span>
           </a>
           <a
             href="/about"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  hover:underline underline-offset-8  md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/about"
+                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
             <span class="font-bold text-xl">About</span>
           </a>
           <a
             href="/services"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  hover:underline underline-offset-8   md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/services"
+                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
             <span class="font-bold text-xl">Services</span>
           </a>
           <a
             href="/gallery"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  hover:underline underline-offset-8   md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/gallery"
+                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
             <span class="font-bold text-xl">Gallery</span>
           </a>
           <a
             href="/products"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  hover:underline underline-offset-8   md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/products"
+                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
             <span class="font-bold text-xl">Products</span>
           </a>
           <a
             href="/contact"
-            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center text-custom-green hover:text-cyan-500 md:hover:scale-125 duration-1000"
+            class={
+              location.pathname === "/contact"
+                ? "underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+            }
           >
-            <span class="font-bold text-xl md:border-4 md:border-cyan-500 md:px-2">
-              Contact Us
-            </span>
+            <span class="font-bold text-xl">Contact us</span>
           </a>
         </div>
       </div>
