@@ -7,7 +7,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <nav class="flex items-center flex-wrap bg-white mr-12">
+    <nav class="bg-transparent fixed top-0 z-50 w-full flex items-center flex-wrap bg-white mr-12">
       <a href="/" class="mt-2 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
         <img
           src="logo.png"

@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
     <div class="min-h-screen md:max-w-full md:grid grid-cols-12 gap-10">
-      <div class="grid col-span-6 text-start">
-        <div class="max-w-full bg-white-800 text-5xl text-black  md:mt-40 mt-7 md:flex md:flex-wrap">
+      <div class="grid col-span-6 text-center ">
+        <div class="max-w-full bg-white-800 text-5xl text-black  md:mt-40 mt-7 md:flex flex-col md:flex-wrap">
           Secure IT Solutions for a more
           <span class=" text-blue-600 font-bold">{""} Secure Environment </span>
           with Zattech
