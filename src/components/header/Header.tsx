@@ -7,7 +7,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <nav class="bg-transparent fixed top-0 z-50 w-full flex items-center flex-wrap bg-white mr-12">
+    <nav class="bg-transparent md:fixed md:top-0 md:z-50 md:w-full flex items-center flex-wrap bg-white mr-12">
       <a href="/" class="mt-2 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
         <img
           src="logo.png"
@@ -16,7 +16,7 @@ const Header = () => {
         />
       </a>
       <button
-        class=" lg:hidden text-black inline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl gap-20"
+        class=" lg:hidden text-cyan-800 inline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl gap-20"
         data-target="#navigation"
         onClick={() => Setisopen(!Isopen())}
       >
@@ -36,8 +36,8 @@ const Header = () => {
             href="/"
             class={
               location.pathname === "/"
-                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Home</span>
@@ -46,7 +46,7 @@ const Header = () => {
             href="/about"
             class={
               location.pathname === "/about"
-                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? " underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
                 : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
@@ -56,7 +56,7 @@ const Header = () => {
             href="/services"
             class={
               location.pathname === "/services"
-                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "  underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
                 : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
@@ -66,7 +66,7 @@ const Header = () => {
             href="/gallery"
             class={
               location.pathname === "/gallery"
-                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "  underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
                 : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
@@ -76,8 +76,8 @@ const Header = () => {
             href="/products"
             class={
               location.pathname === "/products"
-                ? "  underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Products</span>
@@ -86,7 +86,7 @@ const Header = () => {
             href="/contact"
             class={
               location.pathname === "/contact"
-                ? "underline underline-offset-8 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
                 : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
