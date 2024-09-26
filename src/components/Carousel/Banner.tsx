@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
     <div class="min-h-screen md:max-w-full md:grid grid-cols-12 gap-10">
-      <div class="grid col-span-6">
-        <div class="max-w-full  bg-white-800  text-5xl text-black  md:mt-40 mt-7 md:flex md:flex-wrap">
+      <div class="grid col-span-6 text-start">
+        <div class="max-w-full bg-white-800 text-5xl text-black  md:mt-40 mt-7 md:flex md:flex-wrap">
           Secure IT Solutions for a more
           <span class=" text-blue-600 font-bold">{""} Secure Environment </span>
           with Zattech
@@ -21,7 +21,7 @@ const Banner = () => {
             <span class="text-gray-500 my-2 ">Products Published</span>
           </div>
         </div>
-        <div class="md:mb-28  md:pr-33rem">
+        <div class="md:mb-28 text-start ">
           <button class="text-lg font-bold text-white border-4 border-blue-800 bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-full mt-6 hover:scale-125 px-2">
             Get Started
           </button>

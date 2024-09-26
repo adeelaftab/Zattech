@@ -4,7 +4,7 @@ const LifeAtZattech = () => {
       <div class="text-center my-20">
         <h1 class="md:text-4xl">
           {" "}
-          Life At <span class="text-blue-600 font-extrabold">Zattect</span>
+          Life At <span class="text-blue-600 font-extrabold">Zattech</span>
         </h1>
         <p class="text-lg my-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
