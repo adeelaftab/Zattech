@@ -1,4 +1,4 @@
-import { AiFillClockCircle } from "solid-icons/ai";
+import { AiFillClockCircle, AiFillMail } from "solid-icons/ai";
 import { FiPhoneForwarded } from "solid-icons/fi";
 import { ImLocation } from "solid-icons/im";
 
@@ -12,24 +12,26 @@ const ContactForm = () => {
             Get In <span class="text-indigo-600">Touch</span>
           </h3>
           <p class="mt-4 leading-7 text-gray-200">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            E-Jaad offers a range of solutions in the field of Automation and
+            Industrial control! We specialize in giving automation solutions
+            based on PLC, SCADA and our own Automation Products, to help you and
+            your organization solve any technical problem.
           </p>
 
           <div class="flex items-center mt-5">
             <ImLocation class="h-8  w-8 mr-2 text-indigo-600" />
             <span class="text-sm">
-              House #14, Street #12, Darulaman Road, Kabul, Afghanistan.
+              F-10/2 Islamabad, Tariq market, Pakistan.
             </span>
           </div>
           <div class="flex items-center mt-5">
             <FiPhoneForwarded class="h-8  w-8 mr-2 text-indigo-600" />
-            <span class="text-sm">+93 749 99 65 50</span>
+            <span class="text-sm">+92-51-2111291 </span>
           </div>
+
           <div class="flex items-center mt-5">
-            <AiFillClockCircle class="h-8 w-8 mr-2 text-indigo-600 bg-inherit " />
-            <span class="text-sm">24/7</span>
+            <AiFillMail class="h-8 w-8 mr-2 text-indigo-600 bg-inherit " />
+            <span class="text-sm">info@e-jaad.com</span>
           </div>
         </div>
         <form class="md:col-span-8 p-10">

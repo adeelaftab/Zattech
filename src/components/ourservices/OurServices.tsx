@@ -55,7 +55,10 @@ const OurServices = () => {
       <div class="grid md:grid-cols-3 gap-7 grid-cols-3 ">
         <For each={blogPosts}>
           {(blog) => (
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a
+              href="/services"
+              class="max-w-sm rounded overflow-hidden shadow-lg"
+            >
               <img
                 class="w-full"
                 src={blog.image}
@@ -78,7 +81,7 @@ const OurServices = () => {
                   #winter
                 </span>
               </div>
-            </div>
+            </a>
           )}
         </For>
       </div>

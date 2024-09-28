@@ -6,9 +6,9 @@ import MainLayout from "../components/layouts/MainLayout";
 const About = () => {
   return (
     <MainLayout>
-      <div class="container px-8">
-        <section class="flex flex-col md:mt-9 ">
-          <div class="grid  grid-cols-3 md:grid-cols-12 w-full">
+      <div class="container pt-4 px-8">
+        <section class="flex flex-col md:mt-12">
+          <div class="grid grid-cols-3 md:grid-cols-12 w-full">
             <div class=" flex col-span-1 md:col-span-4 justify-center">
               <img
                 src="AboutUsLeft.png"
@@ -59,17 +59,20 @@ const About = () => {
                   About Us
                 </h2>
                 <p class="text-xs md:text-lg text-gray-600 mb-8  my-4 md:my-10 text-wrap">
-                  gap Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna  
-                  aliqua. Quis ipsum suspendisse ultrices gravida.   Lorem ipsum
-                  dolor sit amet spendisse ultrices gravida.   Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.   Quis ipsum
-                  suspendisse ultrices gravida.
+                  Zattech was established in 2009 with the vision to pave the
+                  future of Pakistan in the technological sector. Along with its
+                  own range of products, Zattech provides custom, turnkey
+                  solutions to its clients to befit all their technical needs.
+                  Zattech is a growing company with a strong work ethic and a
+                  mindset to always help and support its clients even after
+                  project completion.
                 </p>
-                <button class="bg-blue-500    text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                  Learn More
-                </button>
+                <a
+                  href="/services"
+                  class="bg-blue-500    text-white px-4 py-2 rounded-md hover:bg-blue-600"
+                >
+                  Our Services
+                </a>
               </div>
             </div>
           </div>

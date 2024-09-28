@@ -4,8 +4,13 @@ import { MainPageProjects } from "../../services/Services";
 const Swiper = () => {
   return (
     <>
-      <div class="mt-10 text-4xl text-black my-9 font-extrabold">
-        Our <span class="text-blue-500 font-bold">Recent</span> Projects
+      <div class="mt-10 text-4xl text-black my-9 font-extrabold flex justify-center gap-2">
+        Our{" "}
+        <span class="text-blue-500 font-bold ">
+          {" "}
+          {""} Recent {""}
+        </span>{" "}
+        Projects
       </div>
       <div class="carousel rounded-box w-full">
         <For each={MainPageProjects}>

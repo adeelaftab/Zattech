@@ -7,7 +7,7 @@ const Teams = () => {
   return (
     <div>
       <div>
-        <span class="text-6xl  px-2 m-4 font-bold underline underline-offset-8">
+        <span class="text-6xl flex justify-center px-2 m-4 font-bold underline underline-offset-8">
           Our Team
         </span>
       </div>
@@ -18,9 +18,11 @@ const Teams = () => {
             <div class="shadow-lg rounded-lg overflow-hidden hover:scale-125 duration-1000">
               <img src={team.pic} alt="Team Member" class="px-20 mt-10" />
 
-              <p class="relative md:text-xl md:font-bold ">{team.name}</p>
-              <span class="mb-2">{team.designation} </span>
-              <span class="md:text-4xl mb-45 text-2xl ">
+              <p class="relative md:text-xl md:font-bold text-center ">
+                {team.name}
+              </p>
+              <span class="mb-2 flex justify-center">{team.designation} </span>
+              <span class="md:text-4xl mb-45 text-2xl flex justify-end ">
                 <A href={team.url}>
                   <FaBrandsLinkedin class="hover:text-blue-600 hover:scale-125 duration-1000 " />
                 </A>
