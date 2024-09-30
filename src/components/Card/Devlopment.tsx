@@ -1,7 +1,10 @@
 const Development = () => {
   return (
-    <div class="shadow-xl md:py-14 max-w-full mx-auto px-4 sm:px-6 text-center">
-      <span class="text-3xl font-bold"> Our Process</span>
+    <div class="shadow-xl md:py-14 max-w-full mx-auto px-4 sm:px-6 text-center py-6">
+      <span class=" text-2xl md:text-3xl font-bold  underline underline-offset-8">
+        {" "}
+        Our Process
+      </span>
       <div class="flex flex-row md:flex-row h-3/4  ">
         <div class="w-full md:w-1/2 p-4">
           <div class="h-full relative">
