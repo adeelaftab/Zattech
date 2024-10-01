@@ -28,9 +28,12 @@ const Banner = () => {
           </div>
         </div>
         <div class="md:mb-28 text-start ">
-          <button class="text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-lg mt-6 hover:scale-125 px-2">
+          <a
+            href="/contact"
+            class="text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-lg mt-6 hover:scale-125 px-2"
+          >
             Get Started
-          </button>
+          </a>
         </div>
       </div>
       <div class="grid col-span-6 md:pb-10">

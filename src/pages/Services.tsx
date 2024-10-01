@@ -3,7 +3,7 @@ import MainLayout from "../components/layouts/MainLayout";
 
 const Services = () => {
   return (
-    <div class="">
+    <div>
       <MainLayout>
         <div class="text-black">
           <div class="grid grid-cols-12 ">
@@ -20,7 +20,7 @@ const Services = () => {
               </div>
               <div class="md:mb-28 ">
                 <a
-                  href="/"
+                  href="/contact"
                   class="text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-3 md:py-3 rounded-lg mt-6 hover:scale-125 px-2"
                 >
                   Get Started
