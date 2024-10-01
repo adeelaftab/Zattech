@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-9">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-9">
       <div class="bg-white shadow-2xl">
         <h2 class="mx-5 text-xl md:text-3xl font-semibold text-black">
           Our History

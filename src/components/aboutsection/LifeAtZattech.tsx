@@ -82,9 +82,9 @@ const LifeAtZattech = () => {
         <div class="grid grid-cols-12  col-span-6">
           <div class="col-span-5">
             <img
-              src="ProfessionalDevlopment.png"
+              src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="loading.."
-              class="w-full"
+              class="w-full h-100 pt-20"
             />
           </div>
 
