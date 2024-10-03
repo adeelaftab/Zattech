@@ -1,5 +1,6 @@
 import { Route, Router } from "@solidjs/router";
-import { lazy } from "solid-js";
+import { createEffect, lazy } from "solid-js";
+import { dark } from "./signals/Signal";
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Services = lazy(() => import("./pages/Services"));
@@ -7,6 +8,15 @@ const Products = lazy(() => import("./pages/Products"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 const Contact = lazy(() => import("./pages/Contact"));
 const App = () => {
+  createEffect(() => {
+    const darkMode = dark();
+    localStorage.setItem("dark-mode", darkMode ? "true" : "false");
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  });
   return (
     <div>
       <Router>

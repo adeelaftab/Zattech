@@ -1,18 +1,19 @@
 import { useLocation } from "@solidjs/router";
 import { AiOutlineClose, AiOutlineMenu } from "solid-icons/ai";
 import { createSignal } from "solid-js";
+import DarkModeToggle from "../../signals/DarkModeToggle";
 
 const Header = () => {
   const [Isopen, Setisopen] = createSignal(false);
   const location = useLocation();
 
   return (
-    <nav class="bg-white md:fixed md:top-0 md:z-50 md:w-full flex items-center flex-wrap mr-12">
-      <a href="/" class="mt-2 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
+    <nav class=" bg-white dark:bg-black md:fixed md:top-0 md:z-50 md:w-full flex items-center flex-wrap  mr-12">
+      <a href="/" class="mt-3 pl-2 md:pl-10 md:mr-4 inline-flex items-center">
         <img
           src="logo.png"
           alt="Loading...."
-          class=" md:h-20 h-20 hover:scale-125 duration-1000 lg:pt-2 "
+          class=" md:h-20 h-20 hover:scale-125 duration-1000 mb-3"
         />
       </a>
       <button
@@ -31,13 +32,16 @@ const Header = () => {
         }`}
         id="navigation"
       >
+        <div class="px-4 text-2xl">
+          <DarkModeToggle />
+        </div>
         <div class="sm:inline-flex lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto lg:pt-2">
           <a
             href="/"
             class={
               location.pathname === "/"
                 ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Home</span>
@@ -47,7 +51,7 @@ const Header = () => {
             class={
               location.pathname === "/about"
                 ? " underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "  dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">About</span>
@@ -57,7 +61,7 @@ const Header = () => {
             class={
               location.pathname === "/services"
                 ? "  underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "  dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Services</span>
@@ -67,7 +71,7 @@ const Header = () => {
             class={
               location.pathname === "/gallery"
                 ? "  underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : " lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : "  dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Gallery</span>
@@ -77,7 +81,7 @@ const Header = () => {
             class={
               location.pathname === "/products"
                 ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Products</span>
@@ -86,8 +90,8 @@ const Header = () => {
             href="/contact"
             class={
               location.pathname === "/contact"
-                ? "underline underline-offset-8 text-cyan-600 active lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
-                : "lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                ? "underline underline-offset-8 active  dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
+                : " dark:text-white lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-cyan-500  md:hover:scale-125 duration-1000"
             }
           >
             <span class="font-bold text-xl">Contact us</span>
