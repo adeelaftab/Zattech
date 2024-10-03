@@ -6,7 +6,7 @@ import MainLayout from "../components/layouts/MainLayout";
 const About = () => {
   return (
     <MainLayout>
-      <div class="container pt-4 px-8">
+      <div class="container pt-4 px-8 `">
         <section class="flex flex-col md:mt-12">
           <div class="grid grid-cols-3 md:grid-cols-12 w-full">
             <div class=" flex col-span-1 md:col-span-4 justify-center">
@@ -18,14 +18,14 @@ const About = () => {
             </div>
             <div class="col-span-1 md:col-span-4">
               <div class="flex flex-col justify-center">
-                <div class="md:mt-20 text-lg md:text-4xl text-black font-bold text-center">
+                <div class="md:mt-20 text-lg md:text-4xl text-black font-bold text-center dark:text-white">
                   Welcome To {""}
                   <span class=" text-blue-500 font-extrabold">
                     {" "}
                     {""} Zattech
                   </span>
                 </div>
-                <p class="md:mt-20 mt-3 text-xs md:text-lg font-normal text-wrap">
+                <p class="md:mt-20 mt-3 text-xs md:text-lg font-normal dark:text-white pl-12 text-wrap">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                   sit dolorem, repellendus minima fugiat animi officiis dicta
                   voluptates rem doloribus sequi possimus ipsa aperiam fugit
@@ -44,8 +44,8 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section class=" bg-gray-100 w-full">
-          <div class="container mx-auto">
+        <section class=" bg-gray-100 w-full dark:bg-black">
+          <div class="container mx-auto dark:text-white ">
             <div class="flex flex-row lg:flex-row items-center justify-between gap-8 md:mb-36">
               <div class="lg:w-1/2">
                 <img
@@ -54,11 +54,11 @@ const About = () => {
                   class="md:w-full md:h-auto w-full h-full mr-48"
                 />
               </div>{" "}
-              <div class="lg:w-1/2 mb-14">
-                <h2 class="text-lg md:text-4xl   font-bold text-gray-800 mt-9 ">
+              <div class="lg:w-1/2 mb-14 ">
+                <h2 class="text-lg md:text-4xl   font-bold text-gray-800 mt-9  dark:text-white">
                   About Us
                 </h2>
-                <p class="text-xs md:text-lg text-gray-600 mb-8  my-4 md:my-10 text-wrap">
+                <p class="text-xs md:text-lg text-gray-600 mb-8 dark:text-white  my-4 md:my-10 text-wrap">
                   Zattech was established in 2009 with the vision to pave the
                   future of Pakistan in the technological sector. Along with its
                   own range of products, Zattech provides custom, turnkey
@@ -69,7 +69,7 @@ const About = () => {
                 </p>
                 <a
                   href="/services"
-                  class="bg-blue-500    text-white px-4 py-2 rounded-md hover:bg-blue-600"
+                  class=" bg-blue-500    text-white px-4 py-2 rounded-md hover:bg-blue-600"
                 >
                   Our Services
                 </a>

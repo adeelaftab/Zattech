@@ -4,7 +4,7 @@ import Header from "../header/Header";
 
 const MainLayout: ParentComponent = (props) => {
   return (
-    <div class=" bg-white dark:text-white text-black">
+    <div class=" bg-white dark:bg-black dark:text-white text-black">
       <Header />
       {props.children}
       <Footer />

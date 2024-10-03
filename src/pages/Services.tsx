@@ -9,11 +9,11 @@ const Services = () => {
           <div class="grid grid-cols-12 ">
             <div class="grid col-span-6 justify-center px-6 mt-4">
               <div class="block md:mt-48">
-                <h1 class=" md:mt-10 text-xl md:text-4xl text-blue-600 font-extrabold">
+                <h1 class="  md:mt-10 text-xl md:text-4xl text-blue-600 font-extrabold">
                   {" "}
                   Our Services
                 </h1>
-                <p class="mt-2 md:mt-4 text-xs md:text-lg text-black">
+                <p class="mt-2 md:mt-4 text-xs md:text-lg text-black dark:text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laborum, fugiat!
                 </p>

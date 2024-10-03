@@ -16,7 +16,7 @@ const Home = () => {
           <main class="flex-grow pb-6 w-fit">
             <div class="max-w-full mx-auto px-8 sm:px-6 ">
               <Banner />
-              <div class="md:mb-6 md:bg-slate-200 rounded-xl">
+              <div class="md:mb-6 md:bg-slate-200 max-w-full dark:bg-slate-800 rounded-xl">
                 <Clients />
               </div>
               <div class="">
@@ -34,7 +34,7 @@ const Home = () => {
                   <a
                     href="/products"
                     type="button"
-                    class=" bg-black text-white focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-xl px-5 py-2.5  md:mt-2"
+                    class=" bg-black dark:bg-slate-200 dark:text-black text-white focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-xl px-5 py-2.5  md:mt-2"
                   >
                     View All
                   </a>

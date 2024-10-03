@@ -2,11 +2,11 @@ const LifeAtZattech = () => {
   return (
     <div class="text-black my-36 shadow-xl">
       <div class="text-center my-20">
-        <h1 class="md:text-4xl">
+        <h1 class="md:text-4xl  dark:text-white">
           {" "}
           Life At <span class="text-blue-600 font-extrabold">Zattech</span>
         </h1>
-        <p class="text-lg my-8">
+        <p class="text-lg my-8  dark:text-white">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
           aliquid architecto sed recusandae harum voluptate.
         </p>
@@ -23,11 +23,11 @@ const LifeAtZattech = () => {
 
           <div class="col-span-7 md:mt-44 px-4 ">
             {" "}
-            <h1 class=" text-lg md:text-4xl">
+            <h1 class=" text-lg md:text-4xl dark:text-white">
               Professional{" "}
               <span class="text-blue-600 font-extrabold">devlopment</span>
             </h1>
-            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9">
+            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9 dark:text-white">
               Professional development is essential for maintaining and
               enhancing the skills, knowledge, and competencies required to
               excel in a career. It involves continuous learning through formal
@@ -36,7 +36,7 @@ const LifeAtZattech = () => {
               technological advancements not only ensures career growth but also
               increases employability in a competitive market.
             </p>
-            <p class="text-wrap text-xs md:text-lg mb-2">
+            <p class="text-wrap text-xs md:text-lg mb-2 dark:text-white ">
               Professionals should also focus on soft skills, such as
               communication, leadership, and problem-solving, which are critical
               for collaboration and career advancement. By investing in
@@ -51,11 +51,11 @@ const LifeAtZattech = () => {
         <div class="grid grid-cols-12  col-span-6">
           <div class="col-span-7 md:mt-44 px-4 ">
             {" "}
-            <h1 class=" text-lg md:text-4xl">
+            <h1 class=" text-lg md:text-4xl dark:text-white">
               Planning For{" "}
               <span class="text-blue-600 font-extrabold">Design</span>
             </h1>
-            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9">
+            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9 dark:text-white">
               When designing an app, careful planning is crucial to ensure a
               smooth development process and a user-friendly experience. The
               first step is to define the app’s purpose and target audience,
@@ -63,7 +63,7 @@ const LifeAtZattech = () => {
               create wireframes and mockups to outline the app’s layout,
               features, and user flow.
             </p>
-            <p class="text-wrap text-xs md:text-lg mb-2">
+            <p class="text-wrap text-xs md:text-lg mb-2 dark:text-white">
               It's essential to prioritize intuitive navigation, accessibility,
               and responsiveness across devices. User experience (UX) and user
               interface (UI) design should go hand in hand, emphasizing
@@ -90,11 +90,11 @@ const LifeAtZattech = () => {
 
           <div class="col-span-7 md:mt-44 px-4 ">
             {" "}
-            <h1 class=" text-lg md:text-4xl">
+            <h1 class=" text-lg md:text-4xl dark:text-white">
               Fun &{" "}
               <span class="text-blue-600 font-extrabold">Entertainment</span>
             </h1>
-            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9">
+            <p class="text-wrap  text-xs md:text-lg my-4 md:my-9 dark:text-white">
               At Zattech, we believe that a healthy balance between work and fun
               is key to fostering creativity and collaboration. Our team enjoys
               a vibrant, relaxed atmosphere where social events, game nights,
@@ -102,7 +102,7 @@ const LifeAtZattech = () => {
               friendly competition over board games, a themed office party, or a
               group outing to a local event,
             </p>
-            <p class="text-wrap text-xs md:text-lg mb-2">
+            <p class="text-wrap text-xs md:text-lg mb-2 dark:text-white">
               Zattech encourages its employees to unwind and enjoy themselves.
               We also provide dedicated spaces for relaxation, complete with
               entertainment options like video games, movie screenings, and

@@ -1,11 +1,11 @@
 const AboutSection = () => {
   return (
     <div class="grid grid-cols-1 md:grid-cols-2 gap-9">
-      <div class="bg-white shadow-2xl">
-        <h2 class="mx-5 text-xl md:text-3xl font-semibold text-black">
+      <div class="bg-white dark:bg-black shadow-2xl">
+        <h2 class="mx-5 text-xl md:text-3xl font-semibold text-black dark:text-white">
           Our History
         </h2>
-        <p class="mx-5 my-4 text-xs md:text-lg text-pretty text-black">
+        <p class="mx-5 my-4 text-xs md:text-lg text-pretty text-black dark:text-white">
           Zattech was established in 2009 with the vision to pave the future of
           Pakistan in the technological sector. Along with its own range of
           products, Zattech provides custom, turnkey solutions to its clients to
@@ -14,11 +14,11 @@ const AboutSection = () => {
           even after project completion.
         </p>
       </div>
-      <div class="bg-white shadow-2xl">
-        <h2 class="mx-5 text-xl md:text-3xl font-semibold  text-black">
+      <div class="bg-white shadow-2xl  dark:bg-black">
+        <h2 class="mx-5 text-xl md:text-3xl font-semibold  text-black  dark:text-white">
           Our Mission
         </h2>
-        <p class="mx-5 my-4 text-xs md:text-lg text-pretty text-black">
+        <p class="mx-5 my-4 text-xs md:text-lg text-pretty text-black  dark:text-white">
           At Zattech, we are driven by a passion for innovation and a commitment
           to our clients. Since 2009, we have been at the forefront of
           Pakistan's technological landscape, delivering cutting-edge solutions

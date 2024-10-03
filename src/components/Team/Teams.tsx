@@ -7,7 +7,7 @@ const Teams = () => {
   return (
     <div>
       <div>
-        <span class="text-6xl flex justify-center px-2 m-4 font-bold underline underline-offset-8">
+        <span class=" dark:text-white text-6xl flex justify-center px-2 m-4 font-bold underline underline-offset-8">
           Our Team
         </span>
       </div>
@@ -15,7 +15,7 @@ const Teams = () => {
       <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 md:my-4 md:mt-20 ">
         <For each={teams}>
           {(team) => (
-            <div class="shadow-lg rounded-lg overflow-hidden hover:scale-125 duration-1000">
+            <div class=" dark:text-white shadow-lg rounded-lg overflow-hidden hover:scale-125 duration-1000">
               <img src={team.pic} alt="Team Member" class="px-20 mt-10" />
 
               <p class="relative md:text-xl md:font-bold text-center ">

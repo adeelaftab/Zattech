@@ -54,10 +54,10 @@ const OurServices = () => {
 
   return (
     <div class=" max-w-full shadow-xl md:py-14">
-      <div class="flex justify-center text-5xl py-10 font-bold text-black md:underline underline-offset-8 md:my-12 hover:text-cyan-500">
+      <div class="flex justify-center text-5xl py-10 font-bold dark:text-white  text-black md:underline underline-offset-8 md:my-12  dark:hover:text-cyan-500 hover:text-cyan-500">
         Our Services{" "}
       </div>
-      <div class="grid md:grid-cols-3 gap-7 grid-cols-2 ">
+      <div class="grid md:grid-cols-3 gap-7 grid-cols-2 dark:text-white ">
         <For each={blogPosts}>
           {(blog) => (
             <a
@@ -73,7 +73,9 @@ const OurServices = () => {
                 <div class="font-bold text-sm md:text-xl mb-2 text-wrap">
                   {blog.title}
                 </div>
-                <p class="text-gray-700 text-xs">{blog.description}</p>
+                <p class="text-gray-700 text-xs dark:text-white">
+                  {blog.description}
+                </p>
               </div>
               <div class="px-6 pt-4 pb-2">
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
