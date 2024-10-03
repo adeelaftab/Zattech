@@ -1,7 +1,9 @@
 import ContactForm from "../components/Card/ContactForm";
 import MainLayout from "../components/layouts/MainLayout";
+import { tabTitle } from "../services/Services";
 
 const Contact = () => {
+  tabTitle("Zattech | Contact");
   return (
     <div>
       <MainLayout>

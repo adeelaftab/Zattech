@@ -475,3 +475,7 @@ export const MainPageProjects = [
     img: "milcots.jpeg",
   },
 ];
+
+export const tabTitle = (newTitle: string) => {
+  document.title = newTitle;
+};

@@ -5,10 +5,11 @@ import Development from "../components/Card/Devlopment";
 import Banner from "../components/Carousel/Banner";
 import OurServices from "../components/ourservices/OurServices";
 import Products from "../components/Card/Products";
-import { MainPageProjects } from "../services/Services";
+import { MainPageProjects, tabTitle } from "../services/Services";
 import Swiper from "../components/Card/Swiper";
 
 const Home = () => {
+  tabTitle("Zattech | Home");
   return (
     <MainLayout>
       <div class="md:px-10">

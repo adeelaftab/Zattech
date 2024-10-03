@@ -2,8 +2,10 @@ import AboutSection from "../components/aboutsection/AboutSection";
 import LifeAtZattech from "../components/aboutsection/LifeAtZattech";
 import Contactfooter from "../components/footer/Contactfooter";
 import MainLayout from "../components/layouts/MainLayout";
+import { tabTitle } from "../services/Services";
 
 const About = () => {
+  tabTitle("Zattech | About");
   return (
     <MainLayout>
       <div class="container pt-4 px-8 `">

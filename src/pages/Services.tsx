@@ -1,7 +1,9 @@
 import Development from "../components/Card/Devlopment";
 import MainLayout from "../components/layouts/MainLayout";
+import { tabTitle } from "../services/Services";
 
 const Services = () => {
+  tabTitle("Zattech | Services");
   return (
     <div>
       <MainLayout>
