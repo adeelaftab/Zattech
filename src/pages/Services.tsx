@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div>
       <MainLayout>
-        <div class="text-black">
+        <div class="text-black md:pt-24">
           <div class="grid grid-cols-12 ">
             <div class="grid col-span-6 justify-center px-6 mt-4">
               <div class="block md:mt-48">

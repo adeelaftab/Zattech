@@ -60,35 +60,31 @@ const OurServices = () => {
       <div class="grid md:grid-cols-3 gap-7 grid-cols-2 dark:text-white ">
         <For each={blogPosts}>
           {(blog) => (
-            <a
-              href="/services"
-              class="max-w-sm rounded overflow-hidden shadow-lg"
-            >
-              <img
-                class="w-full h-32 md:w-full md:h-1/2 flex items-center"
-                src={blog.image}
-                alt="Sunset in the mountains"
-              />
-              <div class="px-6 py-4">
-                <div class="font-bold text-sm md:text-xl mb-2 text-wrap">
-                  {blog.title}
+            <>
+              <a
+                href="/services"
+                class="max-w-sm rounded overflow-hidden shadow-lg"
+              >
+                <img
+                  class="w-full h-32 md:w-full md:h-1/2 flex items-center"
+                  src={blog.image}
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-sm md:text-xl mb-2 text-wrap">
+                    {blog.title}
+                  </div>
+                  <p class="text-gray-700 text-xs dark:text-white">
+                    {blog.description}
+                  </p>
                 </div>
-                <p class="text-gray-700 text-xs dark:text-white">
-                  {blog.description}
-                </p>
-              </div>
-              <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #photography
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #travel
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #winter
-                </span>
-              </div>
-            </a>
+                <div class="text-center">
+                  <button class="text-end text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-lg md:px-2 md:py-1 rounded-lg mt-6 hover:scale-125 px-2">
+                    Learn More {"->"}
+                  </button>
+                </div>
+              </a>
+            </>
           )}
         </For>
       </div>
@@ -97,25 +93,3 @@ const OurServices = () => {
 };
 
 export default OurServices;
-{
-  /* <div class="max-w-sm">
-              <a
-                href="/services"
-                class=" md:p-4 flex flex-row items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-              >
-                <img
-                  class=" absolute object-cover rounded-t-lg h-6 w-2 md:rounded-none md:rounded-s-lg md:h-16 md:w-16 -"
-                  src={blog.image}
-                  alt="loading..."
-                />
-                <div class="flex flex-col justify-between p-4 leading-normal">
-                  <h5 class=" text-sm mb-2 md:text-2xl md:font-bold md:tracking-tight text-gray-900 dark:text-white">
-                    {blog.title}
-                  </h5>
-                  <p class="mb-3 md:font-normal text-xs  text-gray-700 dark:text-gray-400">
-                    {blog.description}
-                  </p>
-                </div>
-              </a>
-            </div> */
-}

@@ -13,9 +13,9 @@ const About = () => {
           <div class="grid grid-cols-3 md:grid-cols-12 w-full">
             <div class=" flex col-span-1 md:col-span-4 justify-center">
               <img
-                src="AboutUsLeft.png"
+                src="AboutUsLeft .png"
                 alt="loading... "
-                class="h-60 w-60 md:w-full md:h-full"
+                class="bg-white dark:bg-transparent h-60 w-60 md:w-full md:h-full"
               />
             </div>
             <div class="col-span-1 md:col-span-4">
@@ -41,7 +41,7 @@ const About = () => {
               <img
                 src="AboutUsRight.png"
                 alt="loading... "
-                class="md:ml-28  md:h-full md:w-full h-60 w-60"
+                class=" bg-white dark:bg-transparent md:ml-28  md:h-full md:w-full h-60 w-60"
               />
             </div>
           </div>
@@ -53,7 +53,7 @@ const About = () => {
                 <img
                   src="Aboutus1.png"
                   alt="About Us"
-                  class="md:w-full md:h-auto w-full h-full mr-48"
+                  class=" bg-white dark:bg-transparent md:w-full md:h-auto w-full h-full mr-48"
                 />
               </div>{" "}
               <div class="lg:w-1/2 mb-14 ">

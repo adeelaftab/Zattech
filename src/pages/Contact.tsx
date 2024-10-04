@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <MainLayout>
-        <div class="min-h-screen pt-12">
+        <div class="min-h-screen  md:pt-24 pt-12">
           <ContactForm />
         </div>
       </MainLayout>
