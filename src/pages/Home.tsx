@@ -5,7 +5,12 @@ import Development from "../components/Card/Devlopment";
 import Banner from "../components/Carousel/Banner";
 import OurServices from "../components/ourservices/OurServices";
 import Products from "../components/Card/Products";
-import { MainPageProjects, tabTitle } from "../services/Services";
+import {
+  MainPageProjects,
+  projectMain,
+  projects,
+  tabTitle,
+} from "../services/Services";
 import Swiper from "../components/Card/Swiper";
 
 const Home = () => {
@@ -28,9 +33,9 @@ const Home = () => {
               <div class="max-w-md md:hidden m-4">
                 <Swiper />
               </div>
-              <div class="my-12 md:my-24 hidden md:block">
-                <Products Product={MainPageProjects} />
 
+              <div class="my-12 md:my-24 hidden md:block">
+                <Products Product={projects} />
                 <span class="md:mt-10 flex justify-center">
                   <a
                     href="/products"

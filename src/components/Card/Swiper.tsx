@@ -23,8 +23,12 @@ const Swiper = () => {
                   class="hover:scale-125 duration-1000 md:h-60 md:w-full h-40 w-full"
                 />
               </div>
-              <div class="text-4xl text-black my-9">{prop.title} </div>
-              <p class="m-2 p-2 text-xs text-black px-2">{prop.description}</p>
+              <div class="text-4xl text-black my-9 dark:text-white">
+                {prop.title}{" "}
+              </div>
+              <p class="m-2 p-2 text-xs text-black dark:text-white px-2">
+                {prop.description}
+              </p>
               <a
                 href="/products"
                 class="hover:bg-blue-600 bg-blue-400 text-lg rounded-lg mx-8"
