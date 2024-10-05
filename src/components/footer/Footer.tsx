@@ -9,7 +9,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+        <div class="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <h4 class="text-xl mb-4">About Us</h4>
             <ul>
@@ -39,12 +39,12 @@ const Footer = () => {
             <h4 class="text-xl mb-4">Services</h4>
             <ul>
               <li class="mb-2">
-                <a href="#" class="hover:text-gray-300">
+                <a href="/contact" class="hover:text-gray-300">
                   Consulting
                 </a>
               </li>
               <li class="mb-2">
-                <a href="/products" class="hover:text-gray-300">
+                <a href="/services" class="hover:text-gray-300">
                   Development
                 </a>
               </li>

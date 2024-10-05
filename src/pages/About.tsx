@@ -10,7 +10,7 @@ const About = () => {
     <MainLayout>
       <div class="container pt-4 px-8 `">
         <section class="flex flex-col md:mt-12">
-          <div class="grid grid-cols-3 md:grid-cols-12 w-full">
+          <div class="grid grid-cols-1 md:grid-cols-12 w-full">
             <div class=" flex col-span-1 md:col-span-4 justify-center">
               <img
                 src="AboutUsLeft .png"
@@ -27,21 +27,25 @@ const About = () => {
                     {""} Zattech
                   </span>
                 </div>
-                <p class="md:mt-20 mt-3 text-xs md:text-lg font-normal dark:text-white pl-12 text-wrap">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                  sit dolorem, repellendus minima fugiat animi officiis dicta
-                  voluptates rem doloribus sequi possimus ipsa aperiam fugit
-                  quasi voluptatum aliquam ut beatae itaque earum sint quo enim
-                  accusamus! Maiores libero sequi quasi.
+
+                <p class="md:mt-20 mt-3  text-xs md:text-lg font-normal dark:text-white text-wrap">
+                  At Zattech, we believe in fostering a dynamic and
+                  collaborative environment where creativity thrives. Our team
+                  is driven by passion, innovation, and the desire to push
+                  boundaries in technology. Every day presents new opportunities
+                  for growth and learning, as we work together to deliver
+                  cutting-edge solutions for our clients. Join us in shaping the
+                  future of tech, where your ideas and contributions truly make
+                  a difference.
                 </p>
               </div>
             </div>
-            <div class=" flex col-span-1 md:col-span-4 justify-center">
+            <div class=" hidden md:flex col-span-1 md:col-span-4 justify-center">
               {" "}
               <img
                 src="AboutUsRight.png"
                 alt="loading... "
-                class=" bg-white dark:bg-transparent md:ml-28  md:h-full md:w-full h-60 w-60"
+                class="  bg-white dark:bg-transparent md:ml-28  md:h-full md:w-full h-60 w-60"
               />
             </div>
           </div>

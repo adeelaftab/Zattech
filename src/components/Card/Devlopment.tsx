@@ -9,9 +9,9 @@ const Development = () => {
         <div class="w-full md:w-1/2 p-4">
           <div class="h-full relative">
             <img
-              src="/WebDevlopment.png"
+              src="WebDevlopment.png"
               alt="Web Development Image"
-              class="mt-8 h-48 md:w-full md:h-full object-cover rounded-full"
+              class=" bg-white dark:bg-black mt-8 h-48 md:w-full md:h-full object-cover rounded-full"
             />
           </div>
         </div>

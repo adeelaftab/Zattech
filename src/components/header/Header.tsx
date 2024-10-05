@@ -17,7 +17,7 @@ const Header = () => {
         />
       </a>
       <button
-        class=" lg:hidden text-cyan-800 inline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl gap-20"
+        class=" lg:hidden text-whiteinline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl gap-20"
         data-target="#navigation"
         onClick={() => Setisopen(!Isopen())}
       >
@@ -27,7 +27,7 @@ const Header = () => {
       <div
         class={`lg:top-navbar lg:inline-flex lg:flex-grow lg:w-auto ${
           Isopen()
-            ? "absolute bg-white right-2 top-16 w-60 z-50 min-w-[160px] shadow-md md:mr-"
+            ? "absolute bg-white dark:bg-black right-2 top-16 w-60 z-50 min-w-[160px] shadow-md md:mr-"
             : "hidden"
         }`}
         id="navigation"
