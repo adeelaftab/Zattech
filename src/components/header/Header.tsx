@@ -35,7 +35,7 @@ const Header = () => {
         <div class="px-4 text-2xl">
           <DarkModeToggle />
         </div>
-        <div class="sm:inline-flex lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto lg:pt-2">
+        <div class="sm:inline-flex lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto lg:pt-2 lg:pr-24">
           <a
             href="/"
             class={
@@ -66,7 +66,7 @@ const Header = () => {
           >
             <span class="font-bold text-xl">Services</span>
           </a>
-          <a
+          {/* <a
             href="/gallery"
             class={
               location.pathname === "/gallery"
@@ -85,7 +85,7 @@ const Header = () => {
             }
           >
             <span class="font-bold text-xl">Products</span>
-          </a>
+          </a> */}
           <a
             href="/contact"
             class={

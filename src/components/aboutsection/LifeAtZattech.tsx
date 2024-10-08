@@ -6,7 +6,6 @@ const LifeAtZattech = () => {
           {" "}
           Life At <span class="text-blue-600 font-extrabold">Zattech</span>
         </h1>
-        tapay
         <p class="text-lg my-8  dark:text-white">
           At Zattech, we believe in fostering a dynamic and collaborative
           environment where creativity thrives. Our team is driven by passion,

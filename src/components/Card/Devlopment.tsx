@@ -28,7 +28,7 @@ const Development = () => {
             From concept to completion, our experienced developers deliver
             pixel-perfect designs and robust functionality.
           </p>
-          <ul class=" dark:text-white hidden md:block mt-8 list-disc  list-inside text-gray-700 text-lg py-2 md:ml-48 md:text-start">
+          <ul class=" dark:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg py-2 md:ml-48 md:text-start">
             <li>Custom web development</li>
             <li>E-commerce solutions</li>
             <li>Responsive design</li>
@@ -43,7 +43,7 @@ const Development = () => {
             <span class="font-bold"> Development Services </span>
           </h2>
           <p class="text-gray-700 dark:text-white m-4 md:mt-5 md:text-2xl text-sm text-center">
-            Level up your business with a custom mobile app !
+            Level up your business with a custom mobile app
           </p>
           <p class="text-gray-500  dark:text-white text-xs md:text-lg text-center md:pt-3">
             We specialize in crafting **native** iOS and Android apps that look
@@ -51,7 +51,7 @@ const Development = () => {
             e-commerce app or a complex enterprise solution, we've got the
             skills to bring your vision to life.
           </p>
-          <ul class=" dark:text-white hidden md:block mt-8 list-disc  list-inside text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class="rk:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>User-friendly interfaces</li>
             <li>Seamless performance</li>
             <li>Intuitive navigation</li>
@@ -84,7 +84,7 @@ const Development = () => {
             <span class="text-blue-600">Embedded</span> Hardware Services
           </h2>
           <p class="text-gray-700 md:mt-5 m-3 text-sm md:text-2xl md:font-semibold text-center dark:text-white">
-            Design and develop reliable embedded hardware !
+            Design and develop reliable embedded hardware
           </p>
           <p class="text-gray-500 md:text-lg text-xs text-center md:pt-3 dark:text-white">
             We offer a comprehensive range of embedded hardware services, from
@@ -93,7 +93,7 @@ const Development = () => {
             bring your ideas to life, ensuring your hardware meets the highest
             standards of performance, reliability, and efficiency.
           </p>
-          <ul class=" dark:text-white hidden md:block mt-8 list-disc  list-inside text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class=" dark:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>Concept development and prototyping</li>
             <li>Hardware design and schematics</li>
             <li>Firmware development and programming</li>
@@ -109,8 +109,8 @@ const Development = () => {
             <span class="text-blue-600">eCommerce</span>
             <span class="font-bold"> Development Services </span>
           </h2>
-          <p class="text-gray-700 m-4 md:mt-5 md:text-2xl text-sm text-center dark:text-white">
-            Elevate your online store with a custom eCommerce app!
+          <p class="text-gray-700 m-4 md:mt-5 md:text-2xl text-sm text-center text-nowrap dark:text-white">
+            Elevate your online store with a custom eCommerce app
           </p>
           <p class="text-gray-500 text-xs md:text-lg text-center md:pt-3 dark:text-white">
             Our expert team specializes in creating tailored eCommerce apps that
@@ -119,7 +119,7 @@ const Development = () => {
             payment gateways and personalized recommendations, we'll design an
             app that drives sales and customer satisfaction.
           </p>
-          <ul class="hidden   dark:text-white md:block mt-8 list-disc  list-inside text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class="hidden   dark:text-white md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>Responsive design for optimal mobile browsing</li>
             <li>Secure payment processing and data protection</li>
             <li>
@@ -166,7 +166,7 @@ const Development = () => {
             of user behavior to create websites that engage, convert, and drive
             results.
           </p>
-          <ul class=" dark:text-white hidden md:block mt-8 list-disc  list-inside text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class=" dark:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>Website design and development</li>
             <li>User interface (UI) design</li>
             <li>User experience (UX) design</li>
