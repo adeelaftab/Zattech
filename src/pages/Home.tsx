@@ -5,12 +5,7 @@ import Development from "../components/Card/Devlopment";
 import Banner from "../components/Carousel/Banner";
 import OurServices from "../components/ourservices/OurServices";
 import Products from "../components/Card/Products";
-import {
-  MainPageProjects,
-  projectMain,
-  projects,
-  tabTitle,
-} from "../services/Services";
+import { projects, tabTitle } from "../services/Services";
 import Swiper from "../components/Card/Swiper";
 
 const Home = () => {

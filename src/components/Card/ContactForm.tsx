@@ -1,4 +1,4 @@
-import { AiFillClockCircle, AiFillMail } from "solid-icons/ai";
+import { AiFillMail } from "solid-icons/ai";
 import { FiPhoneForwarded } from "solid-icons/fi";
 import { ImLocation } from "solid-icons/im";
 

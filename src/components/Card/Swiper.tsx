@@ -1,5 +1,5 @@
 import { For } from "solid-js";
-import { MainPageProjects } from "../../services/Services";
+import { projects } from "../../services/Services";
 
 const Swiper = () => {
   return (
@@ -13,7 +13,7 @@ const Swiper = () => {
         Projects
       </div>
       <div class="carousel rounded-box w-full">
-        <For each={MainPageProjects}>
+        <For each={projects}>
           {(prop) => (
             <div class="carousel-item w-full text-center flex flex-col flex-wrap">
               <div class="overflow-hidden">

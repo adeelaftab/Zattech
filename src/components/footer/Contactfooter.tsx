@@ -1,8 +1,10 @@
 const Contactfooter = () => {
   return (
     <div class="flex flex-col w-full bg-gradient-to-l from-cyan-500 to-blue-600 text-white py-6 gap-4 justify-between">
-      <h1 class="text-center text-3xl font-bold">Ready to Connect?</h1>
-      <p class="text-center text-lg mb-4">
+      <h1 class="text-center  text-xl md:text-3xl font-bold">
+        Ready to Connect?
+      </h1>
+      <p class="text-center  text-xs md:text-lg mb-4">
         We're excited to hear from you! Whether you have a question, need
         advice, or want to start a project, our team is ready to assist.
       </p>

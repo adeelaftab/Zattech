@@ -5,7 +5,7 @@ import MainLayout from "../components/layouts/MainLayout";
 import { tabTitle } from "../services/Services";
 
 const About = () => {
-  tabTitle("Zattech | About");
+  tabTitle("About");
   return (
     <MainLayout>
       <div class="container pt-4 px-8 `">

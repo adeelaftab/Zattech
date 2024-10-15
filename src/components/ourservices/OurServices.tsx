@@ -79,7 +79,7 @@ const OurServices = () => {
                   </p>
                 </div>
                 <div class="text-center">
-                  <button class="text-end text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-lg md:px-2 md:py-1 rounded-lg mt-6 hover:scale-125 px-2">
+                  <button class="text-end text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-lg md:px-2 md:py-1 rounded-lg mt-6 hover:scale-125 px-2 mb-2">
                     Learn More {"->"}
                   </button>
                 </div>

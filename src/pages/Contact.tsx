@@ -3,7 +3,7 @@ import MainLayout from "../components/layouts/MainLayout";
 import { tabTitle } from "../services/Services";
 
 const Contact = () => {
-  tabTitle("Zattech | Contact");
+  tabTitle("Contact Us");
   return (
     <div>
       <MainLayout>

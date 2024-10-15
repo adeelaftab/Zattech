@@ -104,12 +104,12 @@ const Development = () => {
         </div>
       </div>
       <div class="flex flex-row md:flex-row h-3/4">
-        <div class="w-full md:w-1/2 p-4">
+        <div class="  w-1/2 md:w-1/2 p-4">
           <h2 class="md:text-3xl text-xl font-semibold md:mt-28 dark:text-white">
             <span class="text-blue-600">eCommerce</span>
             <span class="font-bold"> Development Services </span>
           </h2>
-          <p class="text-gray-700 m-4 md:mt-5 md:text-2xl text-sm text-center text-nowrap dark:text-white">
+          <p class="text-gray-700 m-4 md:mt-5 md:text-2xl text-sm text-center text-wrap dark:text-white">
             Elevate your online store with a custom eCommerce app
           </p>
           <p class="text-gray-500 text-xs md:text-lg text-center md:pt-3 dark:text-white">
@@ -119,7 +119,7 @@ const Development = () => {
             payment gateways and personalized recommendations, we'll design an
             app that drives sales and customer satisfaction.
           </p>
-          <ul class="hidden   dark:text-white md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class="hidden  dark:text-white md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>Responsive design for optimal mobile browsing</li>
             <li>Secure payment processing and data protection</li>
             <li>
@@ -130,7 +130,7 @@ const Development = () => {
             <li>Robust analytics and reporting for performance tracking</li>
           </ul>
         </div>
-        <div class="w-full md:w-1/2 p-4">
+        <div class=" md:w-1/2 p-4">
           <div class="md:h-full relative">
             <img
               src="eCommerce.png"

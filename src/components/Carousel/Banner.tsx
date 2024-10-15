@@ -13,7 +13,7 @@ const Banner = () => {
           with your overarching business objectives, ensuring that your
           technology investments deliver maximum value.
         </p>
-        <div class="flex flex-row  gap-7 md:gap-9  md:pr-12 pt-3 md:mt-4 ">
+        <div class="flex flex-row  gap-7 md:gap-9  md:pr-12 pt-3 md:mt-4 my-3 ">
           <div class="flex flex-col items-center justify-center">
             <h1 class="text-black text-3xl dark:text-white font-bold">15+</h1>
             <span class="text-gray-500 my-2">Years of Experience</span>
@@ -30,7 +30,7 @@ const Banner = () => {
         <div class="md:mb-28 text-start md:pt-4">
           <a
             href="/contact"
-            class="text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-lg mt-6 hover:scale-125 px-2"
+            class="text-lg font-bold text-white  bg-gradient-to-l from-cyan-600 to-blue-600  bg-blue-500 hover:bg-cyan-700 duration-1000 md:text-xl md:px-2 md:py-2 rounded-lg mt-6 hover:scale-125 px-2 py-1"
           >
             Get Started
           </a>
