@@ -5,10 +5,21 @@ import Development from "../components/Card/Devlopment";
 import Banner from "../components/Carousel/Banner";
 import OurServices from "../components/ourservices/OurServices";
 import Products from "../components/Card/Products";
-import { projects, tabTitle } from "../services/Services";
+import { tabTitle } from "../services/Services";
 import Swiper from "../components/Card/Swiper";
+import { createEffect, createSignal } from "solid-js";
+import axios from "axios";
 
 const Home = () => {
+  const [project, setProject] = createSignal([]);
+
+  createEffect(() => {
+    axios.get("http://localhost:3000/projects").then((res) => {
+      console.log(res.data);
+      setProject(res.data);
+    });
+  });
+
   tabTitle("Zattech | Home");
   return (
     <MainLayout>
@@ -30,7 +41,7 @@ const Home = () => {
               </div>
 
               <div class="my-12 md:my-24 hidden md:block">
-                <Products Product={projects} />
+                <Products Product={project()} />
                 <span class="md:mt-10 flex justify-center">
                   <a
                     href="/products"

@@ -51,7 +51,7 @@ const Development = () => {
             e-commerce app or a complex enterprise solution, we've got the
             skills to bring your vision to life.
           </p>
-          <ul class="rk:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
+          <ul class="dark:text-white hidden md:block mt-8 list-disc  text-gray-700 text-lg md:ml-48 md:text-start">
             <li>User-friendly interfaces</li>
             <li>Seamless performance</li>
             <li>Intuitive navigation</li>
@@ -60,11 +60,11 @@ const Development = () => {
           </ul>
         </div>
         <div class="w-full md:w-1/2 p-4">
-          <div class="md:h-full relative">
+          <div class="md:h-96 md:w-full  md:z-20 relative">
             <img
               src="Mobile.png"
               alt="Web Development Image"
-              class="mt-8 h-48 md:w-full md:h-full object-cover rounded-full"
+              class="mt-8 h-48 md:w-full md:h-full object-cover md:z-20 md:ml-3 "
             />
           </div>
         </div>
