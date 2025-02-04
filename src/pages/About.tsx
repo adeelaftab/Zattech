@@ -8,7 +8,7 @@ const About = () => {
   tabTitle("About");
   return (
     <MainLayout>
-      <div class="container pt-4 px-8 `">
+      <div class="pt-4 px-12">
         <section class="flex flex-col md:mt-12">
           <div class="grid grid-cols-1 md:grid-cols-12 w-full">
             <div class=" flex col-span-1 md:col-span-4 justify-center">
