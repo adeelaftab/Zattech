@@ -10,7 +10,7 @@ import Swiper from "../components/Card/Swiper";
 import { projects } from "../signals/Projects";
 
 const Home = () => {
-  tabTitle("Zattech | Home");
+  tabTitle("Home");
 
   return (
     <MainLayout>
