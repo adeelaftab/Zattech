@@ -19,7 +19,7 @@
     "solid-js": "^1.8.17",
     "solid-slider": "^1.3.17",
     "solid-styled-components": "^0.28.5",
-    "swiper": "^11.1.14"
+    "swiper": "^11.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",

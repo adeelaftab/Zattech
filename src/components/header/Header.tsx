@@ -27,11 +27,11 @@ const Header = () => {
         <img
           src="logo.png"
           alt="Loading...."
-          class=" md:h-20 h-20 hover:scale-125 duration-1000 mb-3"
+          class=" md:h-10 h-20 hover:scale-125 duration-1000 mb-3"
         />
       </a>
       <button
-        class=" lg:hidden text-black inline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl gap-20"
+        class=" lg:hidden text-black inline-flex  ml-auto hover:text-black-500  hover:underline underline-offset-8   hover:scale-125 duration-1000 outline-none nav-toggler text-2xl"
         data-target="#navigation"
         onClick={() => Setisopen(!Isopen())}
       >

@@ -20,7 +20,7 @@ const Home = () => {
             <div class="max-w-full mx-auto">
               <Banner />
 
-              <div class="my-6 bg-slate-100 dark:bg-slate-800 rounded-xl p-4">
+              <div class="my-6  dark:bg-slate-800 rounded-xl p-4">
                 <Clients />
               </div>
 

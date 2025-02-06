@@ -14,7 +14,7 @@ module.exports = {
         'custom-green': '#0b112b',
       },
       Animation: {
-        'slide': "slide 5s linear infinite"
+        'slide': 'slide  linear infinite',
       }
     },
   },
